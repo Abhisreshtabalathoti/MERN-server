@@ -18,5 +18,8 @@ server.applyMiddleware({app});//run my express code
 app.listen(port,()=>{
     console.log(`server live at ${port} `);
 })
+}function TESTING(){
+    return 1;
 }
+TESTING();
 StartServer();
